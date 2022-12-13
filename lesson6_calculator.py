@@ -36,6 +36,7 @@ def calculate():
         messagebox.showinfo('Внимание', 'На ноль делить нельзя!')
         calc.insert(0, '0')
 
+
 def clear():
     calc.delete(0, tk.END)
     calc.insert(0, '0')
