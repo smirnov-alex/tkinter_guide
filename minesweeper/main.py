@@ -60,7 +60,6 @@ class MineSweeper:
             cur_btn['state'] = 'normal'
             cur_btn['text'] = ''
 
-
     def click(self, clicked_button: MyButton):
 
         if MineSweeper.IS_GAME_OVER:
